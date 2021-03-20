@@ -1,0 +1,12 @@
+{
+  "additionalAgreements": "",
+  "driver": {
+    "drivingLicenseId": "",
+    "drivingLicenseIssueDate": null,
+    "drivingLicenseIssuingAuthority": ""
+  },
+  "fileNameLocale": "en_GB",
+  "startStatus": null,
+  "testDriveStartTime": null,
+  "uiTimeZoneOffset": 120
+}

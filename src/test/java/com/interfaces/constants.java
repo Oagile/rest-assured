@@ -1,0 +1,40 @@
+package com.interfaces;
+
+public interface constants {
+    String TEXT_SEARCH = "textSearch";
+    String TEXT_SEARCH_LOCALE = "textSearchLocale";
+    String USAGE_TYPE_CODE = "usageTypeCode";
+    String START_DATE = "startDate";
+    String REPEAT_UNTIL = "repeatUntil";
+    String TIME_STAMP = "timestamp";
+    String END_DATE = "endDate";
+    String GROUP_LOCALE = "groupLocales";
+    String OUTLETS = "outlets";
+    String SERVICE_TYPES = "serviceTypes";
+    String OUTLET_TYPE = "outletType";
+    String LIMIT = "limit";
+    String OFFSET = "offset";
+    String AVAILABLE_TO = "availableTo";
+    String AVAILABLE_FROM = "availableFrom";
+    String APP_CALENDAR_ENTRY_TYPE = "appointment.calendarEntryType";
+    String TEST_DRIVE_START_TIME = "testDriveStartTime";
+    String TEST_DRIVE_APPOINTMENT = "appointment";
+    String TEST_DRIVE_END_TIME = "returnDate";
+    String START_TIME = "startTime";
+    String END_TIME = "endTime";
+    String LOCALE = "locale";
+    String SEARCH_TEXT = "searchText";
+    String VEHICLE_ID_PARAM = "vehicleId";
+    String ASSIGNMENT_ID_PARAM = "assignmentId";
+    String COOKIE = "Cookie";
+    String TENANT_ID = "tenantId";
+    String OUTLET = "outletId";
+    String ACCEPT = "Accept";
+    String FIRST_CALENDAR_ENTRY = "calendarEntries[0].calendarEntryId";
+    String SECOND_CALENDAR_ENTRY = "calendarEntries[1].calendarEntryId";
+    String THIRD_CALENDAR_ENTRY = "calendarEntries[2].calendarEntryId";
+    String CALENDAR_ENTRY_ID = "calenderEntryId";
+    String OCCURRENCE_DATE = "occurrenceDate";
+    String CURRENT_USER_ID = "currentUserId";
+    String VEHICLE_ID = "vehicleId";
+}

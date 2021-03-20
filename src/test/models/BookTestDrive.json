@@ -1,0 +1,28 @@
+{
+  "driver": {
+      "address": {
+        "country": "US",
+        "street": "742 Evergreen Terrace",
+        "additionalAddressField": "",
+        "state": "Ohio",
+        "city": "Springfield",
+        "zipCode": "50000"
+      },
+    "titleCode": "PROF",
+    "salutationCode": "MR",
+    "dateOfBirth": null,
+    "firstName": "Rest",
+    "lastName": "Assured",
+    "email": "rest@assured.com",
+    "correspondenceLanguage": "en_GB",
+    "phone": "+1 (800) 555 0000",
+    "cellphone": "+1 (800) 555 1533",
+    "drivingLicenseIssueDate": null
+  },
+  "additionalDrivers": "For Shizzle",
+  "commentShared": true,
+
+  "bookingModeIsAppointment": false,
+  "appointmentLocale": "en_GB"
+}
+

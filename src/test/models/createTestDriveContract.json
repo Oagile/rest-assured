@@ -1,0 +1,20 @@
+{
+  "additionalAgreements": "Test",
+
+  "driver": {
+    "additionalDrivers": "Mr. Ben Dover",
+    "drivingLicenseId": "OGTEST",
+    "drivingLicenseIssueDate": 1165442400000,
+    "drivingLicenseIssuingAuthority": null
+  },
+  "fileNameLocale": "en_GB",
+  "startStatus": {
+    "chargeLevel": 3,
+    "fuelLevel": 50,
+    "mileage": 20,
+    "sourceOfStatus": "MANUAL",
+    "tyresCode": "ALL_SEASON"
+  },
+  "temporaryLicensePlate": "JOHAN",
+  "uiTimeZoneOffset": 120
+}

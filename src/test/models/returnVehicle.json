@@ -1,0 +1,9 @@
+{
+  "endStatus": {
+    "chargeLevel": 3,
+    "fuelLevel": 7,
+    "mileage": 202,
+    "sourceOfStatus": "MANUAL",
+    "tyresCode": "ALL_SEASON"
+  }
+}

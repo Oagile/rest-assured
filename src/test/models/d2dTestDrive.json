@@ -1,0 +1,26 @@
+{
+  "acceptedTermsAndConditions": {
+    "locale": "en_GB",
+    "version": "2"
+  },
+  "appointmentLocale": "en_GB",
+  "commentShared": true,
+  "driver": {
+    "address": {
+      "city": "Springfield",
+      "countryCode": "US",
+      "state": "Ohio",
+      "street": "742 Evergreen Terrace",
+      "zipCode": "50000"
+    },
+    "cellphone": "+1 (800) 555 1533",
+    "correspondenceLanguage": "en_GB",
+    "email": "rest@assured.com",
+    "firstName": "Rest",
+    "lastName": "Assured",
+    "phone": "+1 (800) 555 0000",
+    "salutationCode": "MR",
+    "titleCode": "NONE"
+  }
+}
+

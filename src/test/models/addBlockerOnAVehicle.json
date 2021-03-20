@@ -1,0 +1,7 @@
+{
+  "@class": "com.bmwgroup.testdrive.domain.entity.vehicle.TimeBlocker",
+  "comment": "broken",
+  "reasonCode": "DAMAGE",
+  "repeatDays": 0,
+  "repeatWeeks": 0
+}

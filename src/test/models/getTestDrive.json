@@ -1,0 +1,423 @@
+{
+  "responseCode": "string",
+  "responseType": "S",
+  "codeDescription": "string",
+  "technicalMessage": "string",
+  "valuesMap": {
+    "additionalProp1": "string",
+    "additionalProp2": "string",
+    "additionalProp3": "string"
+  },
+  "testDrive": {
+    "bookingId": "string",
+    "bookingOutletId": "string",
+    "vehicle": {
+      "vehicleId": "string",
+      "vin17": "string",
+      "managingOutletId": "string",
+      "brand": "string",
+      "modelSeriesCode": "string",
+      "modelRangeCode": "string",
+      "modelCode": "string",
+      "transmissionCode": "string",
+      "colorCode": "string",
+      "upholsteryCode": "string",
+      "productionDate": "2018-11-16T11:29:42.737Z",
+      "creationDate": "2018-11-16T11:29:42.737Z",
+      "licensePlate": "string",
+      "usageTypeCode": "string",
+      "retired": "2018-11-16T11:29:42.737Z",
+      "catalogueVehicleDate": "2018-11-16T11:29:42.737Z",
+      "comment": "string",
+      "assignedEmployee": "string",
+      "parkingLot": "string",
+      "tankCapacity": 0,
+      "productType": "string",
+      "localizations": [
+        {
+          "vehicleLocalizationId": "string",
+          "language": "string",
+          "modelSeriesName": "string",
+          "modelRangeName": "string",
+          "modelName": "string",
+          "colorName": "string",
+          "upholsteryName": "string",
+          "displayName": "string"
+        }
+      ],
+      "vehicleOptions": [
+        {
+          "vehicleOptionId": "string",
+          "name": "string",
+          "optionCode": "string",
+          "vehicleOptionLocalizations": [
+            {
+              "vehicleOptionLocalizationId": "string",
+              "language": "string",
+              "name": "string"
+            }
+          ]
+        }
+      ],
+      "vehicleStatuses": [
+        {
+          "vehicleStatusId": "string",
+          "timestamp": "2018-11-16T11:29:42.738Z",
+          "mileage": 0,
+          "fuelLevel": 0,
+          "batteryLevel": 0,
+          "tyresCode": "string",
+          "sourceOfStatus": "string"
+        }
+      ],
+      "calendarEntries": [
+        {
+          "calendarEntryId": "string",
+          "startDate": "2018-11-16T11:29:42.738Z",
+          "endDate": "2018-11-16T11:29:42.738Z"
+        }
+      ],
+      "vehicleImages": [
+        {
+          "vehicleImageId": "string",
+          "imageClassification": "FRONT",
+          "imageLocation": "string",
+          "imageOriginCode": "string",
+          "fileId": "string"
+        }
+      ],
+      "vehicleAssignmentPeriods": [
+        {
+          "vehicleAssignmentPeriodId": "string",
+          "startDate": "2018-11-16T11:29:42.738Z",
+          "endDate": "2018-11-16T11:29:42.738Z",
+          "vehicleGroup": {
+            "vehicleGroupId": "string",
+            "name": "string",
+            "managingOutletId": "string",
+            "managingOutlet": {
+              "outletId": "string",
+              "legalEntity": {
+                "legalEntityId": "string",
+                "owner": {
+                  "ownerId": "string",
+                  "dpNumber": "string",
+                  "name": "string"
+                },
+                "dpNumber": "string",
+                "name": "string",
+                "dpClassCode": "string"
+              },
+              "outletNumber": 0,
+              "businessPartnerId": "string",
+              "name": "string",
+              "nickName": "string",
+              "isoCountryCode": "string",
+              "defaultLanguage": "string",
+              "outletAddresses": [
+                {
+                  "outletAddressId": "string",
+                  "street": "string",
+                  "streetAddon": "string",
+                  "zipCode": "string",
+                  "town": "string",
+                  "state": "string",
+                  "email": "string",
+                  "phone": "string",
+                  "isoCountryCode": "string",
+                  "longitude": "string",
+                  "latitude": "string",
+                  "usageTypeCode": "string"
+                }
+              ],
+              "outletBusinessRelationships": [
+                {
+                  "outletBusinessRelationshipId": "string",
+                  "brandName": "string",
+                  "brandCode": "string",
+                  "outletTypeCode": "string",
+                  "businessTypeCode": "string",
+                  "distributionBranchCode": "string",
+                  "agDealerCode": "string",
+                  "domesticDealerCode": "string",
+                  "startDate": "2018-11-16T11:29:42.738Z",
+                  "endDate": "2018-11-16T11:29:42.738Z"
+                }
+              ],
+              "tenantOutletAssignments": [
+                {
+                  "tenantOutletAssignmentId": "string",
+                  "tenantDealer": {
+                    "tenantId": "string",
+                    "tenantType": "string",
+                    "tenantName": "string",
+                    "tenantIdentifier": "string",
+                    "retired": "2018-11-16T11:29:42.738Z",
+                    "market": {
+                      "marketId": "string",
+                      "marketCountries": [
+                        {
+                          "countryId": "string",
+                          "countryName": "string",
+                          "isoCountryCode2": "string",
+                          "isoCountryCode3": "string"
+                        }
+                      ],
+                      "abbreviation": "string",
+                      "name": "string"
+                    },
+                    "currentUserOutletAssignments": [
+                      {
+                        "userOutletAssignmentId": "string",
+                        "default": true
+                      }
+                    ],
+                    "country": "string",
+                    "viewMode": "OWNER_VIEW",
+                    "ownerDpNumber": "string",
+                    "tenantOutletAssignments": [
+                      null
+                    ]
+                  }
+                }
+              ]
+            },
+            "description": "string",
+            "vehicleGroupServices": [
+              {
+                "vehicleGroupServiceId": "string",
+                "serviceTypeCode": "TEST_DRIVE",
+                "serviceAccessLevelCode": "NONE",
+                "sameBrandOnly": true,
+                "approvalRequired": true,
+                "authorizedOutletServices": [
+                  {
+                    "authorizedOutletServiceId": "string",
+                    "outletId": "string",
+                    "outlet": {
+                      "outletId": "string",
+                      "legalEntity": {
+                        "legalEntityId": "string",
+                        "owner": {
+                          "ownerId": "string",
+                          "dpNumber": "string",
+                          "name": "string"
+                        },
+                        "dpNumber": "string",
+                        "name": "string",
+                        "dpClassCode": "string"
+                      },
+                      "outletNumber": 0,
+                      "businessPartnerId": "string",
+                      "name": "string",
+                      "nickName": "string",
+                      "isoCountryCode": "string",
+                      "defaultLanguage": "string",
+                      "outletAddresses": [
+                        {
+                          "outletAddressId": "string",
+                          "street": "string",
+                          "streetAddon": "string",
+                          "zipCode": "string",
+                          "town": "string",
+                          "state": "string",
+                          "email": "string",
+                          "phone": "string",
+                          "isoCountryCode": "string",
+                          "longitude": "string",
+                          "latitude": "string",
+                          "usageTypeCode": "string"
+                        }
+                      ],
+                      "outletBusinessRelationships": [
+                        {
+                          "outletBusinessRelationshipId": "string",
+                          "brandName": "string",
+                          "brandCode": "string",
+                          "outletTypeCode": "string",
+                          "businessTypeCode": "string",
+                          "distributionBranchCode": "string",
+                          "agDealerCode": "string",
+                          "domesticDealerCode": "string",
+                          "startDate": "2018-11-16T11:29:42.738Z",
+                          "endDate": "2018-11-16T11:29:42.738Z"
+                        }
+                      ],
+                      "tenantOutletAssignments": [
+                        {
+                          "tenantOutletAssignmentId": "string",
+                          "tenantDealer": {
+                            "tenantId": "string",
+                            "tenantType": "string",
+                            "tenantName": "string",
+                            "tenantIdentifier": "string",
+                            "retired": "2018-11-16T11:29:42.738Z",
+                            "market": {
+                              "marketId": "string",
+                              "marketCountries": [
+                                {
+                                  "countryId": "string",
+                                  "countryName": "string",
+                                  "isoCountryCode2": "string",
+                                  "isoCountryCode3": "string"
+                                }
+                              ],
+                              "abbreviation": "string",
+                              "name": "string"
+                            },
+                            "currentUserOutletAssignments": [
+                              {
+                                "userOutletAssignmentId": "string",
+                                "default": true
+                              }
+                            ],
+                            "country": "string",
+                            "viewMode": "OWNER_VIEW",
+                            "ownerDpNumber": "string",
+                            "tenantOutletAssignments": [
+                              null
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "vehicleAssignmentPeriods": [
+              null
+            ]
+          }
+        }
+      ],
+      "inCatalog": true
+    },
+    "vehicleId": "string",
+    "driver": {
+      "driverId": "string",
+      "salutationCode": "string",
+      "titleCode": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "address": {
+        "street": "string",
+        "additionalAddressField": "string",
+        "zipCode": "string",
+        "city": "string",
+        "state": "string",
+        "country": "string"
+      },
+      "phone": "string",
+      "cellphone": "string",
+      "email": "string",
+      "correspondenceLanguage": "string",
+      "dateOfBirth": "2018-11-16T11:29:42.738Z",
+      "drivingLicenseId": "string",
+      "drivingLicenseIssuingAuthority": "string",
+      "drivingLicenseIssueDate": "2018-11-16T11:29:42.738Z",
+      "rspCrmAccountNumber": "string",
+      "rspCrmContactNumber": "string"
+    },
+    "documents": [
+      {
+        "documentId": "string",
+        "creationDate": "2018-11-16T11:29:42.738Z",
+        "name": "string",
+        "createdByDisplayName": "string",
+        "createdByOutletUuid": "string",
+        "createdByOutletDisplayName": "string",
+        "fileId": "string",
+        "documentType": "CONTRACT",
+        "executingOutletTenantIdentifier": "string"
+      }
+    ],
+    "comments": [
+      {
+        "commentId": "string",
+        "creationDate": "2018-11-16T11:29:42.738Z",
+        "createdById": "string",
+        "createdByDisplayName": "string",
+        "createdByOutletId": "string",
+        "createdByOutletDisplayName": "string",
+        "comment": "string",
+        "shared": true
+      }
+    ],
+    "testDriveEntry": {
+      "calendarEntryId": "string",
+      "startDate": "2018-11-16T11:29:42.738Z",
+      "endDate": "2018-11-16T11:29:42.738Z",
+      "bookingId": "string",
+      "driver": "string",
+      "responsiblePerson": "string"
+    },
+    "bookingOutletDisplayName": "string",
+    "bookedByPersonId": "string",
+    "bookedByPersonDisplayName": "string",
+    "executingOutletId": "string",
+    "executingOutletDisplayName": "string",
+    "testDriveStatus": "BOOKED",
+    "vehicleVin17": "string",
+    "vehicleLicensePlate": "string",
+    "vehicleModelName": "string",
+    "vehicleUsageTypeCode": "string",
+    "temporaryLicensePlate": "string",
+    "appointment": {
+      "appointmentStartTime": "2018-11-16T11:29:42.738Z",
+      "appointmentEndTime": "2018-11-16T11:29:42.738Z",
+      "appointmentLocationAddress": "string",
+      "appointmentResponsiblePersonDisplayName": "string",
+      "appointmentResponsiblePersonId": "string"
+    },
+    "additionalAgreements": "string",
+    "additionalDrivers": "string",
+    "contractCreationTime": "2018-11-16T11:29:42.738Z",
+    "testDriveStartTime": "2018-11-16T11:29:42.738Z",
+    "testDriveEndTime": "2018-11-16T11:29:42.738Z",
+    "rspCrmCaseId": "string",
+    "endTimeInternal": "2018-11-16T11:29:42.738Z",
+    "startStatus": {
+      "mileage": 0,
+      "fuelLevel": 0,
+      "chargeLevel": 0,
+      "tyresCode": "string"
+    },
+    "endStatus": {
+      "mileage": 0,
+      "fuelLevel": 0,
+      "chargeLevel": 0,
+      "tyresCode": "string"
+    },
+    "feedback": {
+      "feedbackConfigId": "string",
+      "feedbackContent": "string",
+      "feedbackTime": "2018-11-16T11:29:42.738Z"
+    },
+    "cancellation": {
+      "cancellationTime": "2018-11-16T11:29:42.738Z",
+      "cancellationOutletId": "string",
+      "cancellationOutletDisplayName": "string",
+      "cancellationPersonUuid": "string",
+      "cancellationPersonDisplayName": "string",
+      "cancellationToBeCharged": true,
+      "cancellationFee": 0
+    },
+    "bookingCreationTime": "2018-11-16T11:29:42.738Z",
+    "contractCreatedByPersonId": "string",
+    "contractCreatedByPersonDisplayName": "string",
+    "returnExecutedByPersonId": "string",
+    "returnExecutedByPersonDisplayName": "string",
+    "securityToken": "string",
+    "price": 0,
+    "currency": "string",
+    "cancellationFeeEffectiveDateTime": "2018-11-16T11:29:42.738Z",
+    "acceptedTermsAndConditions": {
+      "version": 0,
+      "locale": "string",
+      "text": "string"
+    },
+    "appointmentLocale": "string",
+    "bookingOutletChangeTime": "2018-11-16T11:29:42.738Z"
+  }
+}
